@@ -6,3 +6,4 @@ node_modules/
 *.keypair.json
 .upstream-magicblock/
 AGENTS.md
+.multica/
