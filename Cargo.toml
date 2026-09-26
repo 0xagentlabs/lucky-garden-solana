@@ -1,0 +1,10 @@
+[workspace]
+members = ["programs/lucky-garden"]
+resolver = "2"
+
+[workspace.dependencies]
+pinocchio = { version = "0.10", features = ["cpi", "copy"] }
+pinocchio-log = "0.5"
+pinocchio-system = "0.5"
+ephemeral-rollups-pinocchio = "0.16.2"
+
